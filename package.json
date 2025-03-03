@@ -1,15 +1,14 @@
 {
-  "name": "crypto-auto-sender",
+  "name": "crypto-transaction-backend",
   "version": "1.0.0",
+  "description": "Backend for automatic crypto transactions",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "axios": "^0.21.1",
-    "cors": "^2.8.5",
-    "bitcoinjs-lib": "^5.2.0",
-    "tronweb": "^4.0.0"
-  },
   "scripts": {
     "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "body-parser": "^1.19.0",
+    "axios": "^1.3.2"
   }
 }
